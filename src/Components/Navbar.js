@@ -8,6 +8,7 @@ import {
   DropdownMenu,
   UncontrolledDropdown,
 } from "reactstrap";
+import './styles.scss';
 
 const Navbar = () => {
   return (
@@ -46,10 +47,10 @@ const Navbar = () => {
     // </div>
 
     <div>
-      <p>List Based</p>
+      {/* <p>List Based</p> */}
       <Nav vertical className="colorr">
         <NavItem>
-          <NavLink href="#">Link</NavLink>
+          <NavLink className="colorr2" href="#">Link</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#">Link</NavLink>
