@@ -17,3 +17,16 @@ body{
     color: brown;
 }
 
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: red;
+}
