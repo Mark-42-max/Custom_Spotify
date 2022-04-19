@@ -5,19 +5,15 @@
     margin: 0;
     padding: 0;
 }
-html{
-    font-size:medium;
+
+.colorr {
+    background-color: aquamarine;
+    color: red !important;
+    font-family: "Cambria";
+    font-weight: normal;
+    font-size: 4rem;
+    height: 100%;
 }
-
-body{
-    font-size: 1.5rem;
-}
-
-.colorr{
-    color: brown;
-}
-
-
 
 html {
     font-size: 62.5%;
@@ -29,4 +25,20 @@ body {
 
 .nav-link {
     color: red;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar {
+    width: 15%;
+    height: 100vh;
+}
+
+.not-nav {
+    width: 85%;
 }

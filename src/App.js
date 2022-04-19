@@ -1,16 +1,17 @@
-
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import { Button } from "reactstrap";
-import Home from './Components/Home'
-import Navbar from './Components/Navbar'
-
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Home />
+      <div className="container2">
+        <div className="Navbar">
+          <Navbar />
+        </div>
+        <div className="not-nav">
+          <Home />
+        </div>
+      </div>
     </div>
   );
 };
